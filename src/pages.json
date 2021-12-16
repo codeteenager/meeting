@@ -1,0 +1,125 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "赞同会议",
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "赞同会议",
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/roomlist/index",
+			"style": {
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/room/index",
+			"style": {
+				"navigationBarTitleText": "会议室管理",
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/room/add",
+			"style": {
+				"navigationBarTitleText": "新建会议室",
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/roomdetail/index",
+			"style": {
+				"navigationBarTitleText": "会议安排",
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/reserve/reserve",
+			"style": {
+				"navigationBarTitleText": "会议室预定",
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/reservedetail/index",
+			"style": {
+				"navigationBarTitleText": "会议详情",
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/company/index",
+			"style": {
+				"navigationBarTitleText": "分公司管理",
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/company/add",
+			"style": {
+				"navigationBarTitleText": "新增分公司",
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "会议室",
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"backgroundTextStyle": "light"
+			}
+		}
+	],
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "/static/images/home.png",
+				"selectedIconPath": "/static/images/home_selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/list/list",
+				"iconPath": "/static/images/meet.png",
+				"selectedIconPath": "/static/images/meet_selected.png",
+				"text": "会议室"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "/static/images/user.png",
+				"selectedIconPath": "/static/images/user_selected.png",
+				"text": "我的"
+			}
+		],
+		"position": "bottom",
+		"selectedColor": "#00cab7",
+		"color": "#bfbfbf"
+	},
+	"debug": true,
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "会议室预定助手",
+		"backgroundColor": "#ffffff",
+		"backgroundTextStyle": "light"
+	},
+	"subPackages": []
+}
